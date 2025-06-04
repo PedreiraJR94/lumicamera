@@ -25,7 +25,7 @@ const Header: React.FC = () => {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white shadow-md py-3' : 'bg-transparent py-5'
+        isScrolled ? 'bg-white shadow-md py-2 md:py-3' : 'bg-transparent py-4 md:py-5'
       }`}
     >
       <div className="container flex items-center justify-between">
@@ -33,7 +33,7 @@ const Header: React.FC = () => {
           <img
             src="/lamp-icon.svg"
             alt="Loja SoLuz Logo"
-            className="w-[280px] h-[80px] object-contain"
+            className="w-[160px] h-[50px] object-contain md:w-[280px] md:h-[80px]"
           />
         </a>
 
