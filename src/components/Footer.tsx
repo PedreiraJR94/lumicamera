@@ -92,6 +92,9 @@ const Footer: React.FC = () => {
           <p className="text-slate-400 text-sm">
             © {new Date().getFullYear()} SolarCam. Todos os direitos reservados.
           </p>
+          <p className="text-slate-500 text-xs mt-2">
+            CNPJ: 02.373.183/0001-16
+          </p>
         </div>
       </div>
     </footer>
