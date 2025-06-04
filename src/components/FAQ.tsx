@@ -84,16 +84,6 @@ const FAQ: React.FC = () => {
             ))}
           </div>
         </div>
-
-        <div className="mt-12 text-center" data-aos="fade-up">
-          <p className="mb-4 text-lg">Ainda tem dúvidas?</p>
-          <a 
-            href="#" 
-            className="btn bg-primary-600 hover:bg-primary-700 text-white inline-flex items-center gap-2"
-          >
-            <span>Fale com um especialista</span>
-          </a>
-        </div>
       </div>
     </section>
   );
