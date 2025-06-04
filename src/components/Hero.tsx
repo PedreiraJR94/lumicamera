@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
             </p>
             <div className="aspect-square w-full max-w-2xl mx-auto mb-8">
               <img
-                src="https://images.pexels.com/photos/3205737/pexels-photo-3205737.jpeg"
+                src="https://i.imgur.com/goI5xrx.jpeg"
                 alt="Câmera de segurança com visão noturna"
                 className="w-full h-full object-cover rounded-xl shadow-lg"
               />
@@ -54,7 +54,7 @@ const Hero: React.FC = () => {
                   />
                 </div>
               </div>
-              <p className="text-sm text-slate-600">Mais de 10.000 clientes satisfeitos</p>
+              <p className="text-sm text-slate-600">Mais de 11.350 clientes satisfeitos</p>
             </div>
           </div>
           
