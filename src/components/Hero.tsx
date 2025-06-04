@@ -32,14 +32,26 @@ const Hero: React.FC = () => {
             </div>
             <div className="mt-8 flex items-center gap-4">
               <div className="flex -space-x-2">
-                <div className="w-10 h-10 rounded-full bg-slate-300 border-2 border-white flex items-center justify-center">
-                  <span className="text-xs">✓</span>
+                <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-white">
+                  <img 
+                    src="https://images.pexels.com/photos/1729931/pexels-photo-1729931.jpeg" 
+                    alt="Cliente satisfeito" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
-                <div className="w-10 h-10 rounded-full bg-slate-300 border-2 border-white flex items-center justify-center">
-                  <span className="text-xs">✓</span>
+                <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-white">
+                  <img 
+                    src="https://images.pexels.com/photos/788567/pexels-photo-788567.jpeg" 
+                    alt="Cliente satisfeito" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
-                <div className="w-10 h-10 rounded-full bg-slate-300 border-2 border-white flex items-center justify-center">
-                  <span className="text-xs">✓</span>
+                <div className="w-10 h-10 rounded-full overflow-hidden border-2 border-white">
+                  <img 
+                    src="https://images.pexels.com/photos/1139743/pexels-photo-1139743.jpeg" 
+                    alt="Cliente satisfeito" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
               <p className="text-sm text-slate-600">Mais de 10.000 clientes satisfeitos</p>
