@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Sun, Menu, X, ShoppingCart } from 'lucide-react';
+import { Menu, X, ShoppingCart } from 'lucide-react';
 
 const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -30,8 +30,11 @@ const Header: React.FC = () => {
     >
       <div className="container flex items-center justify-between">
         <a href="#" className="flex items-center gap-2">
-          <Sun className="w-8 h-8 text-primary-600" />
-          <span className="font-bold text-xl text-dark-800">SolarCam</span>
+          <img 
+            src="/lamp-icon.svg" 
+            alt="Soluz Logo" 
+            className="w-8 h-8"
+          />
         </a>
 
         {/* Desktop Menu */}

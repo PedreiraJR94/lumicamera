@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sun, Mail, Phone, MapPin, Instagram, Facebook, Youtube } from 'lucide-react';
+import { Mail, Phone, MapPin, Instagram, Facebook, Youtube } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -8,8 +8,12 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <Sun className="w-8 h-8 text-primary-400" />
-              <span className="font-bold text-xl">SolarCam</span>
+              <img 
+                src="/lamp-icon.svg" 
+                alt="Soluz Logo" 
+                className="w-8 h-8"
+              />
+              <span className="font-bold text-xl">Soluz</span>
             </div>
             <p className="text-slate-300 mb-6">
               Iluminação e segurança em um único produto. Tecnologia de ponta para o seu dia a dia.
@@ -74,7 +78,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <Mail className="w-5 h-5 text-primary-400 flex-shrink-0 mt-0.5" />
-                <span className="text-slate-300">contato@solarcam.com.br</span>
+                <span className="text-slate-300">contato@soluz.com.br</span>
               </li>
               <li className="flex items-start gap-3">
                 <Phone className="w-5 h-5 text-primary-400 flex-shrink-0 mt-0.5" />
@@ -90,7 +94,7 @@ const Footer: React.FC = () => {
         
         <div className="pt-8 border-t border-slate-700 text-center">
           <p className="text-slate-400 text-sm">
-            © {new Date().getFullYear()} SolarCam. Todos os direitos reservados.
+            © {new Date().getFullYear()} Soluz. Todos os direitos reservados.
           </p>
           <p className="text-slate-500 text-xs mt-2">
             CNPJ: 02.373.183/0001-16

@@ -14,7 +14,7 @@ const AboutUs: React.FC = () => {
           <div data-aos="fade-right">
             <div className="prose max-w-none">
               <p className="text-lg text-slate-700 mb-6">
-                Há 8 anos no mercado de iluminação e segurança, a SolarCam se destaca pelo compromisso com a qualidade e inovação. Nossa trajetória é marcada pela confiança de mais de 10.000 clientes satisfeitos em todo o Brasil, que escolheram nossas soluções para proteger o que mais importa.
+                Há 8 anos no mercado de iluminação e segurança, a Soluz se destaca pelo compromisso com a qualidade e inovação. Nossa trajetória é marcada pela confiança de mais de 10.000 clientes satisfeitos em todo o Brasil, que escolheram nossas soluções para proteger o que mais importa.
               </p>
               <p className="text-lg text-slate-700 mb-6">
                 Nossa equipe de especialistas está sempre pronta para oferecer um atendimento personalizado e humanizado, garantindo que cada cliente encontre a solução ideal para suas necessidades. Acreditamos que segurança e tecnologia devem ser acessíveis e fáceis de usar.
