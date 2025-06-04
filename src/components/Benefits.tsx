@@ -70,6 +70,13 @@ const Benefits: React.FC = () => {
           <p>Nossa luminária solar com câmera integrada oferece segurança e praticidade em um único dispositivo.</p>
         </div>
 
+        <img
+          src="https://images.pexels.com/photos/1738434/pexels-photo-1738434.jpeg"
+          alt="Luminária solar com câmera integrada"
+          className="w-full max-w-4xl mx-auto rounded-xl shadow-lg mb-12"
+          data-aos="fade-up"
+        />
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {benefits.map((benefit, index) => (
             <BenefitCard

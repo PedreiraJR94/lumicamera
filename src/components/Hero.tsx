@@ -13,6 +13,11 @@ const Hero: React.FC = () => {
             <p className="text-xl text-slate-700 mb-8">
               Câmera IP com visão noturna colorida, Wi-Fi, áudio bidirecional e controle total pelo celular.
             </p>
+            <img
+              src="https://images.pexels.com/photos/3205737/pexels-photo-3205737.jpeg"
+              alt="Câmera de segurança com visão noturna"
+              className="w-full rounded-xl shadow-lg mb-8"
+            />
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="#cta" className="btn-accent btn-lg flex items-center justify-center gap-2 animate-pulse-slow">
                 <ShoppingCart className="w-5 h-5" />
