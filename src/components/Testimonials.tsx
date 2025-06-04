@@ -7,7 +7,8 @@ const TestimonialCard: React.FC<{
   text: string;
   rating: number;
   delay: number;
-}> = ({ name, location, text, rating, delay }) => {
+  photoUrl: string;
+}> = ({ name, location, text, rating, delay, photoUrl }) => {
   return (
     <div 
       className="bg-white p-6 rounded-xl shadow-md" 
@@ -27,8 +28,12 @@ const TestimonialCard: React.FC<{
       </div>
       <p className="text-slate-700 mb-4 italic">{text}</p>
       <div className="flex items-center gap-3">
-        <div className="w-10 h-10 rounded-full bg-primary-100 flex items-center justify-center text-primary-600 font-bold">
-          {name.charAt(0)}
+        <div className="w-12 h-12 rounded-full overflow-hidden flex-shrink-0">
+          <img 
+            src={photoUrl} 
+            alt={name} 
+            className="w-full h-full object-cover"
+          />
         </div>
         <div>
           <p className="font-semibold">{name}</p>
@@ -46,21 +51,24 @@ const Testimonials: React.FC = () => {
       location: "São Paulo, SP",
       text: "Instalei na minha casa há 3 meses e tem funcionado perfeitamente. A iluminação é potente e a câmera tem uma qualidade incrível, mesmo à noite.",
       rating: 5,
-      delay: 0
+      delay: 0,
+      photoUrl: "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg"
     },
     {
       name: "Carla Mendes",
       location: "Rio de Janeiro, RJ",
       text: "O que mais gostei foi a facilidade de instalação e o app intuitivo. Consigo monitorar minha casa mesmo quando estou viajando!",
       rating: 5,
-      delay: 100
+      delay: 100,
+      photoUrl: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg"
     },
     {
       name: "Lucas Fernandes",
       location: "Belo Horizonte, MG",
       text: "Já passei por 3 dias de chuva intensa e a bateria não descarregou. A proteção contra água realmente funciona!",
       rating: 4,
-      delay: 200
+      delay: 200,
+      photoUrl: "https://images.pexels.com/photos/1771383/pexels-photo-1771383.jpeg"
     }
   ];
 
@@ -83,6 +91,7 @@ const Testimonials: React.FC = () => {
               text={testimonial.text}
               rating={testimonial.rating}
               delay={testimonial.delay}
+              photoUrl={testimonial.photoUrl}
             />
           ))}
         </div>
