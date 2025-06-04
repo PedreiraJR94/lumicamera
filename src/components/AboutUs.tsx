@@ -14,7 +14,7 @@ const AboutUs: React.FC = () => {
           <div data-aos="fade-right">
             <div className="prose max-w-none">
               <p className="text-lg text-slate-700 mb-6">
-                Há 8 anos no mercado de iluminação e segurança, a Soluz se destaca pelo compromisso com a qualidade e inovação. Nossa trajetória é marcada pela confiança de mais de 10.000 clientes satisfeitos em todo o Brasil, que escolheram nossas soluções para proteger o que mais importa.
+                Há 8 anos no mercado de iluminação e segurança, a Soluz se destaca pelo compromisso com a qualidade e inovação. Nossa trajetória é marcada pela confiança de mais de 11.350 clientes satisfeitos em todo o Brasil, que escolheram nossas soluções para proteger o que mais importa.
               </p>
               <p className="text-lg text-slate-700 mb-6">
                 Nossa equipe de especialistas está sempre pronta para oferecer um atendimento personalizado e humanizado, garantindo que cada cliente encontre a solução ideal para suas necessidades. Acreditamos que segurança e tecnologia devem ser acessíveis e fáceis de usar.
@@ -38,7 +38,7 @@ const AboutUs: React.FC = () => {
               <div className="p-3 bg-primary-100 text-primary-600 rounded-lg w-fit mb-4">
                 <Users className="w-8 h-8" />
               </div>
-              <h3 className="text-xl font-semibold mb-2">+10.000</h3>
+              <h3 className="text-xl font-semibold mb-2">+11.350</h3>
               <p className="text-slate-600">clientes satisfeitos em todo o Brasil</p>
             </div>
 
