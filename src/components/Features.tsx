@@ -32,7 +32,7 @@ const Features: React.FC = () => {
 
         <div className="aspect-square w-full max-w-2xl mx-auto mb-12" data-aos="fade-up">
           <img
-            src="https://images.pexels.com/photos/3205567/pexels-photo-3205567.jpeg"
+            src="https://i.imgur.com/EWSQsCj.png"
             alt="Tecnologias da luminária solar"
             className="w-full h-full object-cover rounded-xl shadow-lg"
           />
@@ -93,14 +93,14 @@ const Features: React.FC = () => {
         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8" data-aos="fade-up">
           <div className="aspect-square">
             <img 
-              src="https://images.pexels.com/photos/257886/pexels-photo-257886.jpeg" 
+              src="https://i.imgur.com/ZU42TgS.png" 
               alt="Luminária funcionando à noite" 
               className="w-full h-full object-cover rounded-xl shadow-lg"
             />
           </div>
           <div className="aspect-square">
             <img 
-              src="https://images.pexels.com/photos/3205567/pexels-photo-3205567.jpeg" 
+              src="https://i.imgur.com/fjfSFzf.png" 
               alt="Detalhes técnicos do produto" 
               className="w-full h-full object-cover rounded-xl shadow-lg"
             />
