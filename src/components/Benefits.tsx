@@ -72,7 +72,7 @@ const Benefits: React.FC = () => {
 
         <div className="aspect-square w-full max-w-2xl mx-auto mb-12" data-aos="fade-up">
           <img
-            src="https://images.pexels.com/photos/1738434/pexels-photo-1738434.jpeg"
+            src="https://i.imgur.com/0bfypft.jpeg"
             alt="Luminária solar com câmera integrada"
             className="w-full h-full object-cover rounded-xl shadow-lg"
           />
