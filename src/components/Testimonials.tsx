@@ -78,7 +78,7 @@ const Testimonials: React.FC = () => {
         <div className="section-title" data-aos="fade-up">
           <h2>O Que Nossos Clientes Dizem</h2>
           <p className="text-center text-xl font-medium text-primary-600 mb-2">
-            Mais de 10.000 clientes satisfeitos em todo o Brasil!
+            Mais de 11.350 clientes satisfeitos em todo o Brasil!
           </p>
         </div>
 
