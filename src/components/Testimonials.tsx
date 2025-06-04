@@ -47,7 +47,7 @@ const TestimonialCard: React.FC<{
 const Testimonials: React.FC = () => {
   const testimonials = [
     {
-      name: "Roberto Silva",
+      name: "Rogério Matos",
       location: "São Paulo, SP",
       text: "Instalei na minha casa há 3 meses e tem funcionado perfeitamente. A iluminação é potente e a câmera tem uma qualidade incrível, mesmo à noite.",
       rating: 5,
@@ -68,7 +68,7 @@ const Testimonials: React.FC = () => {
       text: "Já passei por 3 dias de chuva intensa e a bateria não descarregou. A proteção contra água realmente funciona!",
       rating: 4,
       delay: 200,
-      photoUrl: "https://images.pexels.com/photos/1771383/pexels-photo-1771383.jpeg"
+      photoUrl: "https://i.imgur.com/LiOfrgH.jpeg"
     }
   ];
 
