@@ -29,15 +29,12 @@ const Header: React.FC = () => {
       }`}
     >
       <div className="container flex items-center justify-between">
-        <a href="#" className="flex items-center gap-4">
+        <a href="#" className="flex items-center">
           <img
             src="/lamp-icon.svg"
             alt="Loja SoLuz Logo"
             className="w-[280px] h-[80px] object-contain"
           />
-          <span className="font-sans font-semibold text-3xl text-primary-600">
-            Loja SoLuz
-          </span>
         </a>
 
         {/* Desktop Menu */}
