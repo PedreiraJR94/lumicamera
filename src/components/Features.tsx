@@ -30,12 +30,13 @@ const Features: React.FC = () => {
           <p>Conheça as tecnologias que fazem nossa luminária solar a mais completa do mercado.</p>
         </div>
 
-        <img
-          src="https://images.pexels.com/photos/3205567/pexels-photo-3205567.jpeg"
-          alt="Tecnologias da luminária solar"
-          className="w-full max-w-4xl mx-auto rounded-xl shadow-lg mb-12"
-          data-aos="fade-up"
-        />
+        <div className="aspect-square w-full max-w-2xl mx-auto mb-12" data-aos="fade-up">
+          <img
+            src="https://images.pexels.com/photos/3205567/pexels-photo-3205567.jpeg"
+            alt="Tecnologias da luminária solar"
+            className="w-full h-full object-cover rounded-xl shadow-lg"
+          />
+        </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1" data-aos="fade-right">
@@ -90,16 +91,20 @@ const Features: React.FC = () => {
         </div>
 
         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8" data-aos="fade-up">
-          <img 
-            src="https://images.pexels.com/photos/257886/pexels-photo-257886.jpeg" 
-            alt="Luminária funcionando à noite" 
-            className="w-full rounded-xl shadow-lg object-cover"
-          />
-          <img 
-            src="https://images.pexels.com/photos/3205567/pexels-photo-3205567.jpeg" 
-            alt="Detalhes técnicos do produto" 
-            className="w-full rounded-xl shadow-lg object-cover"
-          />
+          <div className="aspect-square">
+            <img 
+              src="https://images.pexels.com/photos/257886/pexels-photo-257886.jpeg" 
+              alt="Luminária funcionando à noite" 
+              className="w-full h-full object-cover rounded-xl shadow-lg"
+            />
+          </div>
+          <div className="aspect-square">
+            <img 
+              src="https://images.pexels.com/photos/3205567/pexels-photo-3205567.jpeg" 
+              alt="Detalhes técnicos do produto" 
+              className="w-full h-full object-cover rounded-xl shadow-lg"
+            />
+          </div>
         </div>
       </div>
     </section>
