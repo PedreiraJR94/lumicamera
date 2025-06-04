@@ -7,11 +7,7 @@ const Header: React.FC = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 20) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
+      setIsScrolled(window.scrollY > 20);
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -23,28 +19,28 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header 
+    <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white shadow-md py-3' : 'bg-transparent py-5'
+        isScrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'
       }`}
     >
-      <div className="container flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
         <a href="#" className="flex items-center gap-2">
-          <img 
-            src="/lamp-icon.svg" 
-            alt="Soluz Logo" 
-            className="w-8 h-8"
+          <img
+            src="/lamp-icon.svg"
+            alt="Soluz Logo"
+            className="w-10 h-10 md:w-12 md:h-12 object-contain"
           />
         </a>
 
         {/* Desktop Menu */}
-        <nav className="hidden md:flex items-center gap-8">
+        <nav className="hidden md:flex items-center gap-6">
           <a href="#benefits" className="text-dark-800 hover:text-primary-600 font-medium">Benefícios</a>
           <a href="#features" className="text-dark-800 hover:text-primary-600 font-medium">Recursos</a>
           <a href="#specs" className="text-dark-800 hover:text-primary-600 font-medium">Especificações</a>
           <a href="#faq" className="text-dark-800 hover:text-primary-600 font-medium">FAQ</a>
-          <a 
-            href="#cta" 
+          <a
+            href="#cta"
             className="btn-primary flex items-center gap-2"
           >
             <ShoppingCart className="w-5 h-5" />
@@ -53,7 +49,7 @@ const Header: React.FC = () => {
         </nav>
 
         {/* Mobile Menu Button */}
-        <button 
+        <button
           className="md:hidden text-dark-800 p-2"
           onClick={toggleMobileMenu}
           aria-label="Menu"
@@ -65,37 +61,37 @@ const Header: React.FC = () => {
       {/* Mobile Menu */}
       {mobileMenuOpen && (
         <div className="md:hidden bg-white shadow-lg absolute top-full left-0 right-0 py-4">
-          <div className="container flex flex-col gap-4">
-            <a 
-              href="#benefits" 
+          <div className="max-w-7xl mx-auto px-4 flex flex-col gap-4">
+            <a
+              href="#benefits"
               className="text-dark-800 hover:text-primary-600 font-medium py-2"
               onClick={toggleMobileMenu}
             >
               Benefícios
             </a>
-            <a 
-              href="#features" 
+            <a
+              href="#features"
               className="text-dark-800 hover:text-primary-600 font-medium py-2"
               onClick={toggleMobileMenu}
             >
               Recursos
             </a>
-            <a 
-              href="#specs" 
+            <a
+              href="#specs"
               className="text-dark-800 hover:text-primary-600 font-medium py-2"
               onClick={toggleMobileMenu}
             >
               Especificações
             </a>
-            <a 
-              href="#faq" 
+            <a
+              href="#faq"
               className="text-dark-800 hover:text-primary-600 font-medium py-2"
               onClick={toggleMobileMenu}
             >
               FAQ
             </a>
-            <a 
-              href="#cta" 
+            <a
+              href="#cta"
               className="btn-primary flex items-center justify-center gap-2"
               onClick={toggleMobileMenu}
             >
