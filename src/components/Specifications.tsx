@@ -33,7 +33,7 @@ const Specifications: React.FC = () => {
               </div>
               
               <div className="space-y-1">
-                <SpecItem name="Potência" value="60W" />
+                <SpecItem name="Potência" value="450W" />
                 <SpecItem name="Área de cobertura" value="até 120m²" />
                 <SpecItem name="Temperatura de cor" value="6000K (branco frio)" />
                 <SpecItem name="Ângulo de iluminação" value="120°" />
