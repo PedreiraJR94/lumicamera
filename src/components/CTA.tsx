@@ -64,7 +64,7 @@ const CTA: React.FC = () => {
             </div>
             <div className="lg:col-span-3" data-aos="fade-left">
               <div className="bg-white text-dark-800 p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold mb-6 text-center">Luminária Solar com Câmera Integrada</h3>
+                <h3 className="text-2xl font-bold mb-6 text-center">PROMOÇÃO: LEVE 2 E PAGUE APENAS 1 Luminárias Solar com Câmera Integrada</h3>
                 <div className="flex justify-center mb-4">
                   <div className="flex gap-1">
                     {[...Array(5)].map((_, i) => (
