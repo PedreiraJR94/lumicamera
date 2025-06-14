@@ -31,9 +31,9 @@ const CTA: React.FC = () => {
       <div className="container">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-10" data-aos="fade-up">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Estoque Limitado!</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">PROMOÇÃO RELÂMPAGO LEVE EM DOBRO!</h2>
             <p className="text-xl opacity-90 mb-6">
-              Garanta já sua Luminária Solar com Câmera e tenha mais segurança e praticidade no seu dia a dia.
+              Comprando sua Luminária Solar com Câmera até o final da promoção, você vai levar outra exatamente igual de graça! Obs: Limite de 1 pedido por CPF
             </p>
             <div className="flex justify-center items-center gap-4 my-8">
               <div className="flex flex-col items-center">
@@ -64,7 +64,7 @@ const CTA: React.FC = () => {
             </div>
             <div className="lg:col-span-3" data-aos="fade-left">
               <div className="bg-white text-dark-800 p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold mb-6 text-center">PROMOÇÃO: LEVE 2 E PAGUE APENAS 1 Luminárias Solar com Câmera Integrada</h3>
+                <h3 className="text-2xl font-bold mb-6 text-center">LEVE EM DOBRO Luminária Solar com Câmera Integrada</h3>
                 <div className="flex justify-center mb-4">
                   <div className="flex gap-1">
                     {[...Array(5)].map((_, i) => (
@@ -85,6 +85,10 @@ const CTA: React.FC = () => {
                     <Check className="w-5 h-5 text-success-500" />
                     <span>Frete Grátis para todo Brasil</span>
                   </div>
+                   <div className="flex items-center gap-2 mb-2">
+                  <Check className="w-5 h-5 text-success-500" />
+                    <span>Pague 1 e Leve 2, Pague 2 e Leve 4</span>
+                  </div>
                   <div className="flex items-center gap-2 mb-2">
                     <Check className="w-5 h-5 text-success-500" />
                     <span>Parcelamento em até 12x</span>
@@ -103,7 +107,7 @@ const CTA: React.FC = () => {
                     <span>Restam apenas <b>23 unidades</b> em estoque!</span>
                   </p>
                 </div>
-                <a href="https://seguro.lojasoluz.com/r/35pfuBLtO2Gg4wC6129" className="w-full py-6 px-8 bg-accent-600 hover:bg-accent-700 text-white rounded-2xl font-bold text-xl shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center gap-3 mb-6">
+                <a href="https://seguro.lojasoluz.com/r/jY974n5QQ2X9dG586" className="w-full py-6 px-8 bg-accent-600 hover:bg-accent-700 text-white rounded-2xl font-bold text-xl shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center gap-3 mb-6">
                   <ShoppingCart className="w-7 h-7" />
                   <span>Quero Garantir a Minha Agora!</span>
                 </a>
