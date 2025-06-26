@@ -31,9 +31,9 @@ const CTA: React.FC = () => {
       <div className="container">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-10" data-aos="fade-up">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">PROMOÇÃO RELÂMPAGO LEVE EM DOBRO!</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">PROMOÇÃO RELÂMPAGO!</h2>
             <p className="text-xl opacity-90 mb-6">
-              Comprando sua Luminária Solar com Câmera até o final da promoção, você vai levar outra exatamente igual de graça! Obs: Limite de 1 pedido por CPF
+              Comprando sua Luminária Solar com Câmera até o final da promoção, você vai ganhar esse super desconto! Obs: Limite de 1 pedido por CPF
             </p>
             <div className="flex justify-center items-center gap-4 my-8">
               <div className="flex flex-col items-center">
