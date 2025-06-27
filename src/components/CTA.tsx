@@ -31,9 +31,9 @@ const CTA: React.FC = () => {
       <div className="container">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-10" data-aos="fade-up">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">PROMOÇÃO RELÂMPAGO!</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">PROMOÇÃO RELÂMPAGO LEVE EM DOBRO!</h2>
             <p className="text-xl opacity-90 mb-6">
-              Comprando sua Luminária Solar com Câmera até o final da promoção, você VAI GANHAR UM SUPER DESCONTO! Obs: Limite de 1 pedido por CPF
+              Comprando sua Luminária Solar com Câmera até o final da promoção, você vai LEVAR EM DOBRO! Comprou 1 Levou 2, Comprou 2 Levou 4! Obs: Limite de 1 pedido por CPF
             </p>
             <div className="flex justify-center items-center gap-4 my-8">
               <div className="flex flex-col items-center">
@@ -58,15 +58,13 @@ const CTA: React.FC = () => {
               </div>
             </div>
           </div>
-
-          {/* Bloco da Oferta 1 */}
-          <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 items-center mb-16">
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 items-center">
             <div className="lg:col-span-2" data-aos="fade-right">
               <img src="https://i.imgur.com/hs2twgf.png" alt="Luminária Solar com Câmera" className="rounded-xl shadow-lg w-full object-cover" />
             </div>
             <div className="lg:col-span-3" data-aos="fade-left">
               <div className="bg-white text-dark-800 p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold mb-6 text-center">1 Unidade</h3>
+                <h3 className="text-2xl font-bold mb-6 text-center">LEVE EM DOBRO Luminária Solar com Câmera Integrada</h3>
                 <div className="flex justify-center mb-4">
                   <div className="flex gap-1">
                     {[...Array(5)].map((_, i) => (
@@ -75,9 +73,9 @@ const CTA: React.FC = () => {
                   </div>
                 </div>
                 <div className="text-center mb-6">
-                  <span className="text-sm line-through text-slate-500 block mb-1">De R$ 289,90</span>
+                  <span className="text-sm line-through text-slate-500 block mb-1">De R$ 359,90</span>
                   <div className="flex items-center justify-center gap-3">
-                    <span className="text-4xl font-bold text-accent-600">R$ 129,80</span>
+                    <span className="text-4xl font-bold text-accent-600">R$ 289,80</span>
                     <span className="text-sm bg-accent-100 text-accent-700 px-2 py-1 rounded-full font-semibold">-17% OFF</span>
                   </div>
                   <span className="text-sm text-slate-600 block mt-2">em até 12x</span>
@@ -87,8 +85,8 @@ const CTA: React.FC = () => {
                     <Check className="w-5 h-5 text-success-500" />
                     <span>Frete Grátis para todo Brasil</span>
                   </div>
-                  <div className="flex items-center gap-2 mb-2">
-                    <Check className="w-5 h-5 text-success-500" />
+                   <div className="flex items-center gap-2 mb-2">
+                  <Check className="w-5 h-5 text-success-500" />
                     <span>Código de Rastreamento</span>
                   </div>
                   <div className="flex items-center gap-2 mb-2">
@@ -109,7 +107,7 @@ const CTA: React.FC = () => {
                     <span>Restam apenas <b>23 unidades</b> em estoque!</span>
                   </p>
                 </div>
-                <a href="https://seguro.lojasoluz.com/r/Yf00Ea7xZ26r45bM6St" className="w-full py-6 px-8 bg-accent-600 hover:bg-accent-700 text-white rounded-2xl font-bold text-xl shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center gap-3 mb-6">
+                <a href="https://seguro.lojasoluz.com/r/i6O31604X8iH71d" className="w-full py-6 px-8 bg-accent-600 hover:bg-accent-700 text-white rounded-2xl font-bold text-xl shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center gap-3 mb-6">
                   <ShoppingCart className="w-7 h-7" />
                   <span>Quero Garantir a Minha Agora!</span>
                 </a>
@@ -132,68 +130,6 @@ const CTA: React.FC = () => {
               </div>
             </div>
           </div>
-
-          {/* Bloco da Oferta 2 - SEM IMAGEM */}
-          <div className="w-full" data-aos="fade-up">
-            <div className="bg-white text-dark-800 p-8 rounded-xl shadow-lg">
-              <h3 className="text-2xl font-bold mb-6 text-center">OFERTA ESPECIAL - LEVE 3 E PAGUE 2</h3>
-              <div className="flex justify-center mb-4">
-                <div className="flex gap-1">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 text-accent-500 fill-accent-500" />
-                  ))}
-                </div>
-              </div>
-              <div className="text-center mb-6">
-                <span className="text-sm line-through text-slate-500 block mb-1">De R$ 389,90</span>
-                <div className="flex items-center justify-center gap-3">
-                  <span className="text-4xl font-bold text-accent-600">R$ 259,60</span>
-                  <span className="text-sm bg-accent-100 text-accent-700 px-2 py-1 rounded-full font-semibold">-51% OFF</span>
-                </div>
-                <span className="text-sm text-slate-600 block mt-2">em até 12x</span>
-              </div>
-              <div className="mb-6">
-                <div className="flex items-center gap-2 mb-2">
-                  <Check className="w-5 h-5 text-success-500" />
-                  <span>Frete Grátis</span>
-                </div>
-                <div className="flex items-center gap-2 mb-2">
-                  <Check className="w-5 h-5 text-success-500" />
-                  <span>GANHE UM DE GRAÇA</span>
-                </div>
-              </div>
-              <div className="mb-8">
-                <div className="relative w-full h-3 bg-slate-200 rounded-full overflow-hidden mb-2">
-                  <div className="absolute top-0 left-0 h-full bg-accent-600 w-[60%]"></div>
-                </div>
-                <p className="text-sm text-slate-600 flex items-center gap-1">
-                  <Clock className="w-4 h-4" />
-                  <span>Restam apenas <b>14 kits</b> disponíveis!</span>
-                </p>
-              </div>
-              <a href="https://seguro.lojasoluz.com/r/301oC7l1d7vIEE45" className="w-full py-6 px-8 bg-accent-600 hover:bg-accent-700 text-white rounded-2xl font-bold text-xl shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center gap-3 mb-6">
-                <ShoppingCart className="w-7 h-7" />
-                <span>Quero Essa Oferta Especial!</span>
-              </a>
-              <div className="flex justify-center gap-4 text-slate-600 text-sm">
-                <div className="flex items-center gap-1">
-                  <Shield className="w-4 h-4" />
-                  <span>Compra Segura</span>
-                </div>
-                <div className="flex items-center gap-1">
-                  <Truck className="w-4 h-4" />
-                  <span>Envio Rápido</span>
-                </div>
-              </div>
-            </div>
-            <div className="mt-4 bg-white/20 p-4 rounded-lg flex items-center gap-3">
-              <ArrowRight className="w-5 h-5 flex-shrink-0" />
-              <p className="text-sm">
-                Após a confirmação da compra, você receberá seu código de rastreio e suporte completo por e-mail.
-              </p>
-            </div>
-          </div>
-
         </div>
       </div>
     </section>
