@@ -91,7 +91,7 @@ const CTA: React.FC = () => {
                   </div>
                   <div className="flex items-center gap-2 mb-2">
                     <Check className="w-5 h-5 text-success-500" />
-                    <span>Parcelamento em até 12x</span>
+                    <span>Garantia de Entrega Com Zero Risco de Golpe</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Check className="w-5 h-5 text-success-500" />
