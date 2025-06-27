@@ -66,7 +66,7 @@ const CTA: React.FC = () => {
             </div>
             <div className="lg:col-span-3" data-aos="fade-left">
               <div className="bg-white text-dark-800 p-8 rounded-xl shadow-lg">
-                <h3 className="text-2xl font-bold mb-6 text-center">Luminária Solar com Câmera Integrada</h3>
+                <h3 className="text-2xl font-bold mb-6 text-center">1 Unidade</h3>
                 <div className="flex justify-center mb-4">
                   <div className="flex gap-1">
                     {[...Array(5)].map((_, i) => (
@@ -136,7 +136,7 @@ const CTA: React.FC = () => {
           {/* Bloco da Oferta 2 - SEM IMAGEM */}
           <div className="w-full" data-aos="fade-up">
             <div className="bg-white text-dark-800 p-8 rounded-xl shadow-lg">
-              <h3 className="text-2xl font-bold mb-6 text-center">OFERTA ESPECIAL - LEVE 3 E PAGUE 2 Luminárias Solar com Câmera Integrada</h3>
+              <h3 className="text-2xl font-bold mb-6 text-center">OFERTA ESPECIAL - LEVE 3 E PAGUE 2</h3>
               <div className="flex justify-center mb-4">
                 <div className="flex gap-1">
                   {[...Array(5)].map((_, i) => (
