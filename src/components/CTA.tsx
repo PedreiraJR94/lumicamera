@@ -31,9 +31,25 @@ const CTA: React.FC = () => {
       <div className="container">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-10" data-aos="fade-up">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">PROMOÇÃO RELÂMPAGO LEVE EM DOBRO!</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">PAGUE SOMENTE QUANDO RECEBER!</h2>
             <p className="text-xl opacity-90 mb-6">
-              Comprando sua Luminária Solar com Câmera até o final da promoção, você vai LEVAR EM DOBRO! Comprou 1 Levou 2, Comprou 2 Levou 4! Obs: Limite de 1 pedido por CPF
+              🔒 Compra 100% Segura – Pague Só na Entrega!
+Pensando em sua segurança e comodidade, aqui você só paga pelo produto no momento da entrega! Isso mesmo: nada de cartão, nada de boleto antecipado.
+
+🚚 Mas atenção: Para garantir que o pedido seja entregue corretamente e com prioridade, cobramos uma pequena Taxa de Confirmação de Entrega.
+
+Essa taxa serve para:
+
+✅ Evitar entregas recusadas ou com endereços errados, o que gera prejuízo para nossa equipe de logística.
+
+✅ Garantir a seriedade do pedido, mostrando ao entregador que o cliente está realmente aguardando.
+
+✅ Cobrir o custo de reserva e despacho do produto, que é separado exclusivamente para você assim que o pedido é confirmado.
+
+💡 Essa taxa NÃO é o valor do produto. Ela apenas confirma seu interesse real pela entrega.
+E o melhor: você só paga o restante no momento que o produto chega na sua casa.
+
+🔐 Transparência, segurança e compromisso com você.
             </p>
             <div className="flex justify-center items-center gap-4 my-8">
               <div className="flex flex-col items-center">
