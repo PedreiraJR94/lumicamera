@@ -33,7 +33,7 @@ const CTA: React.FC = () => {
           <div className="text-center mb-10" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">PROMOÇÃO LEVE EM DOBRO!</h2>
             <p className="text-xl opacity-90 mb-6">
-Comprando sua Lúminária com Câmera Integrada, você vai LEVAR EM DOBRO, comprando 1 você leva 2, comprando 2 você leva 4! Obs: Apenas um pedido por CPF.
+Comprando sua Lúminária com Câmera Integrada afé o final da promoção, você vai LEVAR EM DOBRO, comprando 1 você leva 2, comprando 2 você leva 4! Obs: Apenas um pedido por CPF.
             </p>
             <div className="flex justify-center items-center gap-4 my-8">
               <div className="flex flex-col items-center">
