@@ -31,46 +31,9 @@ const CTA: React.FC = () => {
       <div className="container">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-10" data-aos="fade-up">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">PAGUE SOMENTE QUANDO RECEBER!</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">PROMOÇÃO LEVE EM DOBRO!</h2>
             <p className="text-xl opacity-90 mb-6">
-              🔒 Compra 100% Segura – Pague Só na Entrega!
-Pensando em sua segurança e comodidade, aqui você só paga pelo produto no momento da entrega! Isso mesmo: nada de cartão, nada de boleto antecipado.
-
-🚚 Mas atenção: Para garantir que o pedido seja entregue corretamente e com prioridade, cobramos uma pequena Taxa de Confirmação de Entrega.
-
-Essa taxa serve para:
-
-✅ Evitar entregas recusadas ou com endereços errados, o que gera prejuízo para nossa equipe de logística.
-
-✅ Garantir a seriedade do pedido, mostrando ao entregador que o cliente está realmente aguardando.
-
-✅ Cobrir o custo de reserva e despacho do produto, que é separado exclusivamente para você assim que o pedido é confirmado.
-
-💡 Essa taxa NÃO é o valor do produto. Ela apenas confirma seu interesse real pela entrega.
-E o melhor: você só paga o restante no momento que o produto chega na sua casa.
-
-🔐 Transparência, segurança e compromisso com você.🔒 Compra 100% Segura – Pague Só na Entrega!</h2>
-
-<p>Pensando em sua segurança e comodidade, aqui você <strong>só paga pelo produto no momento da entrega</strong>! Isso mesmo: <strong>nada de cartão, nada de boleto antecipado.</strong></p>
-
-<br>
-
-<p>🚚 <strong>Mas atenção:</strong> Para garantir que o pedido seja entregue corretamente e com prioridade, cobramos <strong>uma pequena Taxa de Confirmação de Entrega.</strong></p>
-
-<br>
-
-<p>Essa taxa serve para:</p>
-
-<ul>
-  <li>✅ <strong>Evitar entregas recusadas ou com endereços errados</strong>, o que gera prejuízo para nossa equipe de logística.</li>
-  <li>✅ <strong>Garantir a seriedade do pedido</strong>, mostrando ao entregador que o cliente está realmente aguardando.</li>
-  <li>✅ <strong>Cobrir o custo de reserva e despacho do produto</strong>, que é separado exclusivamente para você assim que o pedido é confirmado.</li>
-</ul>
-
-<br>
-
-<p>💡 <strong>Essa taxa NÃO é o valor do produto</strong>. Ela apenas confirma seu interesse real pela entrega.<br>
-E o melhor: <strong>você só paga o restante no momento que o produto chega na sua casa
+Comprando sua Lúminária com Câmera Integrada, você vai LEVAR EM DOBRO, comprando 1 você leva 2, comprando 2 você leva 4! Obs: Apenas um pedido por CPF.
             </p>
             <div className="flex justify-center items-center gap-4 my-8">
               <div className="flex flex-col items-center">
